@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Fieldset Code-->
+    <fieldset>
+        <legend>User Form Data</legend>
+        <!--Form Element-->
+        <form>
+        <p> What is your favorite animal?</p>
+        <!-- Label Examples with checkbox -->
+        <label>
+            <input type="checkbox">
+            Cats
+        </label>
+        <br>
+        <label>
+            <input type="checkbox">
+            Dogs
+        </label>
+        <br>
+        <label>
+            <input type="checkbox">
+            Rabbits
+        </label>
+        <br>
+        <label>
+            <input type="checkbox">
+            Other
+        </label>
+        <br>
+        <label>
+            <input type="checkbox">
+            None
+            </label>
+               <!--Label Examples with Radio -->
+            <p>Pick the animal you currently have</p>
+            <label>
+                <input type="radio" name="animal" id="cat">
+                Cat
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="animal" id="dog">
+                Dog
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="animal" id="rabbit">
+                Rabbit
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="animal" id="Other">
+                Other
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="animal" id="none">
+                None
+            </label>
+            <br>
+            <!-- Text Area Example -->
+            <label>
+                Write your message here
+                <br>
+                <textarea name="message" id="message" placeholder="Write your message to contact Happy Kitty's Animal Shelter"></textarea>
+            </label>
+            <br>
+            <!-- Input Text and Email Examples -->
+             <label>
+                Username
+                <br>
+                <input type="text" name="username" id="username" placeholder="Enter your username: someuser" maxlength="20">
+             </label>
+             <br>
+             <label>
+                Email
+                <br>
+                <input type="email" name="email" id="email" placeholder="test@gmail.com" required>
+             </label>
+             <br>
+             <!-- Input Number Example -->
+             <label>
+                Age
+                <br>
+                <input type="number" name="age" id="age" min="13" max="99" required>
+             </label>
+             <br>
+                <!-- Select Example -->
+              <p>Categories</p>
+              <label>
+                <select name="category" id="category">
+                    <option value="toys">Toys</option>
+                    <option value="food">Food</option>
+                    <option value="bathing">Bathing/Grooming</option>
+                    <option value="accessories">Accessories/Clothing</option>                    
+                </select>
+              </label>
+              <br>
+              <!-- Sub Section Select Example-->
+               <p>Countries</p>
+                <label>
+          <select name="country" id="country">
+            <optgroup label="North America">
+              <option value="USA">USA</option>
+              <option value="Mexico">Mexico</option>
+              <option value="Canada">Canada</option>
+            </optgroup>
+            <optgroup label="South America">
+              <option value="Brazil">Brazil</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Colombia">Colombia</option>
+            </optgroup>
+            <optgroup label="Europe">
+              <option value="France">France</option>
+              <option value="Italy">Italy</option>
+              <option value="Spain">Spain</option>
+            </optgroup>
+          </select>
+        </label>
+              <br>
+              <!-- Button Examples -->
+         <button type="reset">Reset Form</button>
+         <br>
+         <button type="button" onclick="alert('hello world')">Click Me</button>
+         <br>
+             <!-- Submit Examples -->
+             <input type="submit" value="Submit Form">
+        </form>
+    </fieldset>
+</body>
+</html>
